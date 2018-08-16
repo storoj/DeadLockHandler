@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		326EAA11212562250099F69F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 326EAA10212562250099F69F /* AppDelegate.m */; };
+		326EAA14212562250099F69F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 326EAA13212562250099F69F /* ViewController.m */; };
+		326EAA1F212562270099F69F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 326EAA1E212562270099F69F /* main.m */; };
+		326EAA27212C82200099F69F /* DeadLockDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 326EAA26212C82200099F69F /* DeadLockDetector.m */; };
+		326EAA2A212C82480099F69F /* BadClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 326EAA29212C82480099F69F /* BadClass.m */; };
+		326EAA2D212C8A4F0099F69F /* CallStackHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 326EAA2C212C8A4F0099F69F /* CallStackHelper.m */; };
+		326EAA31212C9BD10099F69F /* DeadLockInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 326EAA30212C9BD10099F69F /* DeadLockInfo.m */; };
+		326EAA34212C9D240099F69F /* DeadLockBlockHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 326EAA33212C9D240099F69F /* DeadLockBlockHandler.m */; };
+		326EAA37212C9DB30099F69F /* DeadLockHandlerGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 326EAA36212C9DB30099F69F /* DeadLockHandlerGroup.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		326EAA0C212562250099F69F /* Threads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Threads.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		326EAA0F212562250099F69F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		326EAA10212562250099F69F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		326EAA12212562250099F69F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		326EAA13212562250099F69F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		326EAA1D212562270099F69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		326EAA1E212562270099F69F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		326EAA25212C82200099F69F /* DeadLockDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeadLockDetector.h; sourceTree = "<group>"; };
+		326EAA26212C82200099F69F /* DeadLockDetector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeadLockDetector.m; sourceTree = "<group>"; };
+		326EAA28212C82480099F69F /* BadClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BadClass.h; sourceTree = "<group>"; };
+		326EAA29212C82480099F69F /* BadClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BadClass.m; sourceTree = "<group>"; };
+		326EAA2B212C8A4F0099F69F /* CallStackHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallStackHelper.h; sourceTree = "<group>"; };
+		326EAA2C212C8A4F0099F69F /* CallStackHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallStackHelper.m; sourceTree = "<group>"; };
+		326EAA2E212C9B6B0099F69F /* DeadLockHandlerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeadLockHandlerProtocol.h; sourceTree = "<group>"; };
+		326EAA2F212C9BD10099F69F /* DeadLockInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeadLockInfo.h; sourceTree = "<group>"; };
+		326EAA30212C9BD10099F69F /* DeadLockInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeadLockInfo.m; sourceTree = "<group>"; };
+		326EAA32212C9D240099F69F /* DeadLockBlockHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeadLockBlockHandler.h; sourceTree = "<group>"; };
+		326EAA33212C9D240099F69F /* DeadLockBlockHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeadLockBlockHandler.m; sourceTree = "<group>"; };
+		326EAA35212C9DB30099F69F /* DeadLockHandlerGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeadLockHandlerGroup.h; sourceTree = "<group>"; };
+		326EAA36212C9DB30099F69F /* DeadLockHandlerGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeadLockHandlerGroup.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		326EAA09212562250099F69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		326EAA03212562250099F69F = {
+			isa = PBXGroup;
+			children = (
+				326EAA0E212562250099F69F /* Threads */,
+				326EAA0D212562250099F69F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		326EAA0D212562250099F69F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				326EAA0C212562250099F69F /* Threads.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		326EAA0E212562250099F69F /* Threads */ = {
+			isa = PBXGroup;
+			children = (
+				326EAA25212C82200099F69F /* DeadLockDetector.h */,
+				326EAA26212C82200099F69F /* DeadLockDetector.m */,
+				326EAA2F212C9BD10099F69F /* DeadLockInfo.h */,
+				326EAA30212C9BD10099F69F /* DeadLockInfo.m */,
+				326EAA2E212C9B6B0099F69F /* DeadLockHandlerProtocol.h */,
+				326EAA32212C9D240099F69F /* DeadLockBlockHandler.h */,
+				326EAA33212C9D240099F69F /* DeadLockBlockHandler.m */,
+				326EAA35212C9DB30099F69F /* DeadLockHandlerGroup.h */,
+				326EAA36212C9DB30099F69F /* DeadLockHandlerGroup.m */,
+				326EAA2B212C8A4F0099F69F /* CallStackHelper.h */,
+				326EAA2C212C8A4F0099F69F /* CallStackHelper.m */,
+				326EAA28212C82480099F69F /* BadClass.h */,
+				326EAA29212C82480099F69F /* BadClass.m */,
+				326EAA0F212562250099F69F /* AppDelegate.h */,
+				326EAA10212562250099F69F /* AppDelegate.m */,
+				326EAA12212562250099F69F /* ViewController.h */,
+				326EAA13212562250099F69F /* ViewController.m */,
+				326EAA1D212562270099F69F /* Info.plist */,
+				326EAA1E212562270099F69F /* main.m */,
+			);
+			path = Threads;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		326EAA0B212562250099F69F /* Threads */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326EAA22212562270099F69F /* Build configuration list for PBXNativeTarget "Threads" */;
+			buildPhases = (
+				326EAA08212562250099F69F /* Sources */,
+				326EAA09212562250099F69F /* Frameworks */,
+				326EAA0A212562250099F69F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Threads;
+			productName = Threads;
+			productReference = 326EAA0C212562250099F69F /* Threads.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		326EAA04212562250099F69F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = storoj;
+				TargetAttributes = {
+					326EAA0B212562250099F69F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 326EAA07212562250099F69F /* Build configuration list for PBXProject "Threads" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 326EAA03212562250099F69F;
+			productRefGroup = 326EAA0D212562250099F69F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				326EAA0B212562250099F69F /* Threads */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		326EAA0A212562250099F69F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		326EAA08212562250099F69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326EAA37212C9DB30099F69F /* DeadLockHandlerGroup.m in Sources */,
+				326EAA2D212C8A4F0099F69F /* CallStackHelper.m in Sources */,
+				326EAA34212C9D240099F69F /* DeadLockBlockHandler.m in Sources */,
+				326EAA31212C9BD10099F69F /* DeadLockInfo.m in Sources */,
+				326EAA14212562250099F69F /* ViewController.m in Sources */,
+				326EAA1F212562270099F69F /* main.m in Sources */,
+				326EAA27212C82200099F69F /* DeadLockDetector.m in Sources */,
+				326EAA2A212C82480099F69F /* BadClass.m in Sources */,
+				326EAA11212562250099F69F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		326EAA20212562270099F69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		326EAA21212562270099F69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		326EAA23212562270099F69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LU3W3G5LDP;
+				INFOPLIST_FILE = Threads/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.storoj.Threads;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		326EAA24212562270099F69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LU3W3G5LDP;
+				INFOPLIST_FILE = Threads/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.storoj.Threads;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		326EAA07212562250099F69F /* Build configuration list for PBXProject "Threads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326EAA20212562270099F69F /* Debug */,
+				326EAA21212562270099F69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326EAA22212562270099F69F /* Build configuration list for PBXNativeTarget "Threads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326EAA23212562270099F69F /* Debug */,
+				326EAA24212562270099F69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 326EAA04212562250099F69F /* Project object */;
+}
